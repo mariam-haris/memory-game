@@ -1,0 +1,77 @@
+*{
+    padding: 0px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../images/1989833.png);
+    background-size: cover;
+}
+.background{
+    width : 600px;
+    height: 600px;
+    margin-top: 35px;
+}
+#win{
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: font;
+    font-size: 50px;
+    color: #214f72;
+    text-shadow: -4px 1px 0px #4595d0d1;
+}
+.background h2 {
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: font;
+    font-size: 50px;
+    color: #214f72;
+    text-shadow: -4px 1px 0px #4595d0d1;
+}
+.background .design h3{
+    padding-bottom: 20px;
+    font-family: font;
+    font-size: 20px;
+    color: #214f72;
+}
+.design{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.table{
+    display: table;
+}
+.table_row{
+    display: table-row;
+    font-size: 0;
+}
+.table_cell{
+    display: table-cell;
+    position:relative;
+    height: 200px;
+    width:200px;
+}
+/* if you want to make it flip */
+/* .table_cell:active{
+    transform: rotateY(180deg);
+} */
+.img img{
+    width:100%;
+    border: 1px solid #4595d0;
+    height: 200px;
+    width:200px;
+    background-color: white;
+}
+.img_front img{
+    width:200px;
+    width:100%;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #4595d0;
+    position: absolute;
+    display: inline-block;
+    height: 200px;
+}  
+@font-face{
+    font-family: font;
+    src:url("../fonts/A Bug s Life.ttf");
+}
